@@ -10,8 +10,8 @@ import SearchBar from './SearchBar';
 
 const navLinks = [
   { title: 'Home', path: '/', icon: <HomeOutlined /> },
-  { title: 'Men', path: '/mens-collection', icon: <ManOutlined /> },
-  { title: 'Women', path: '/womens-collection', icon: <WomanOutlined /> },
+  { title: 'Event', path: '/events', icon: <ManOutlined /> },
+  { title: 'About Us', path: '/about-us', icon: <WomanOutlined /> },
   { title: 'Contact', path: '/contact', icon: <PhoneOutlined /> },
 ]
 
@@ -125,9 +125,6 @@ const Navbar = () => {
           </nav>
         </div>
 
-        <div className=' w-full lg:w-96'>
-          <SearchBar />
-        </div>
       </nav>
     </header>
   )
