@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
-import login from '../assets/images/login.jpg'
+// import homepageimg from '../assets/images/homepageimg.png'
+import homepageimg from '../assets/images/homepageimg.png'
 import { Form, Input, InputNumber } from 'antd'
 import axios from 'axios'
 import { useDispatch } from 'react-redux'
@@ -106,7 +107,7 @@ const Signup = () => {
       <div className='flex w-full h-full'>
 
         <div className='w-1/2 h-full max-sm:hidden'>
-          <img className='h-full w-full object-cover opacity-90' src={login} alt="Login" />
+          <img className='h-full w-full object-cover opacity-90' src={homepageimg} alt="Login" />
         </div>
 
         <div className='h-full w-full md:w-1/2 max-sm:px-3 justify-center items-center flex flex-col'>
